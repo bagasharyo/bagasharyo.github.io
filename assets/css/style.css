@@ -1,0 +1,251 @@
+body{
+	font-family: "Monstserrat", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.topbar{
+	background-color: #2C3E50;
+	height: 50px;
+	line-height: 50px;
+}
+.topbar li{
+	display: inline-block;
+}
+/*.topbar li:hover{
+	background:#3D5A99;
+}*/
+.topbar li a {
+	padding: 0 20px;
+}
+.sosmed {
+	list-style: none;
+}
+.sosmed li:hover{
+	background:#3D5A99;
+}
+.login li a {
+	text-decoration: none;
+	color: #FDFDFD;
+	border-radius: 20px;
+	border :2px solid #FDFDFD;;
+	margin: 5px;
+	padding: 5px 15px;
+}
+.login li a:hover {
+	color: #2C3E50;
+	background-color: #FDFDFD;
+}
+
+/*Header*/
+header{
+	padding: 30px 0;
+}
+.brand{
+	display: flex;
+}
+.brand img{
+	height: 90px;
+	width: 100px;
+	margin-right: 20px;
+}
+.brand .brand-name{
+	padding: 10px 0;
+}
+.brand .brand-name h1{
+	font-size: 25px;
+	color: #2C3E50;
+	text-transform: uppercase;
+}
+.brand .brand-name h3{
+	font-size: 18px;
+	color: #888888;
+	font-family: Raleway, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.logo1{
+	display: flex;
+	padding: 20px 0;
+}
+.logo1 i {
+	font-size: 30px;
+	padding: 10px 15px;
+}
+.telp{
+	padding: 10px 0;
+}
+.telp h1{
+	font-size: 18px;
+	color: #2C3E50;
+	text-transform: uppercase;
+}
+.telp h3{
+	font-size: 12px;
+	color: #888888;
+	font-family: Raleway, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.logo2{
+	display: flex;
+	padding: 20px 0;
+}
+.logo2 i {
+	font-size: 30px;
+	padding: 10px 15px;
+}
+.mail{
+	padding: 10px 0;
+}
+.mail h1{
+	font-size: 18px;
+	color: #2C3E50;
+	text-transform: uppercase;
+}
+.mail h3{
+	font-size: 12px;
+	color: #888888;
+	font-family: Raleway, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+/**/
+/*Navbar*/ 
+.navbar{
+	padding: 0!important;
+	font-weight: 400;
+	letter-spacing: 0.25px;
+	border-bottom: 5px solid #3D5A99;
+}
+.bg-utama{
+	background-color: #2C3E50;
+}
+.navbar li{
+	padding: 10px 10px;
+}
+.navbar li:hover{
+	background:#3D5A99;
+}
+.nav-item.active{
+	background-color: #3D5A99;
+}
+.dropdown-menu a:hover{
+	background:#3D5A99;
+}
+/**/
+/*slider*/
+.carousel-control-prev-icon{
+	background-color:  #2C3E50;
+	padding: 25px 25px;
+}
+.carousel-control-next-icon{
+	background-color:  #2C3E50;
+	padding: 25px 25px;
+}
+/**/
+/*content*/
+.utama{
+	margin: 20px 10px;
+	padding: 20px 10px;
+	border: 2px solid #ddd;
+	text-align: center;
+}
+.galeri1{
+	
+}
+.galeri1 img {
+	width: 100px;
+	height: 100px;
+}
+.imggaleri{
+    max-height: 250px;
+}
+.utama h1 {
+	text-transform: uppercase;
+}
+.pertama{
+	padding: 0 10px;
+	text-align: left;
+}
+.pertama h1 {
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.kedua{
+	padding: 0 10px;
+	text-align: left;
+}
+.kedua h1 {
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.kedua ul li {
+	list-style: none;
+}
+.side{
+	margin: 20px 5px;
+	padding: 10px;
+	border: 2px solid #ddd;
+}
+.side a {
+	text-decoration: none;
+	color: #141414;
+}
+/**/
+/*footer*/
+footer{
+	padding: 80px 0;
+	background-color: #2C3E50;
+	color: #FDFDFD;
+}
+.brand{
+	margin: 10px 20px;
+	padding: 20px 5px;
+	display: flex;
+}
+.brand .brand-name-bawah h1{
+	font-size: 25px;
+	color: #FDFDFD;
+	text-transform: uppercase;
+}
+.brand .brand-name-bawah h3{
+	font-size: 18px;
+	color: #888888;
+	font-size: 18px;
+	font-family: Raleway, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.tentang{
+	line-height: 26px;
+	padding-bottom: 20px;
+	border-bottom: 1px dashed #FDFDFD;
+}
+.info{
+	margin: 10px 30px;
+	padding: 20px 20px 20px 70px;
+}
+.info h1{
+	text-transform: uppercase;
+	font-size: 25px;
+	
+}
+.info a{
+	text-decoration: none;
+	color: #FDFDFD;
+	
+}
+.kontak{
+	margin: 10px 30px;
+	padding: 20px 20px;
+}
+.kontak h1{
+	text-transform: uppercase;
+	font-size: 25px;
+}
+.kontak li a {
+	text-decoration: none;
+	color: #FDFDFD;
+}
+.kontak li i{
+	margin-right: 10px; 
+}
+/**/
